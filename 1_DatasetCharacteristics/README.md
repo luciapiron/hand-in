@@ -9,33 +9,33 @@
 - **Dataset Owner/Contact:** [If applicable, provide contact information for private datasets]
 
 ### Dataset Characteristics
-- **Number of Observations:** [10,896 rows]
-- **Temporal resolution:** [daily]
-- **Panel structure:** [6 products per date (6 products; one-hot encoded as `Product_2`…`Product_6`, with “Product 1” as the all-zeros baseline)]
-- **Number of Features:** [23 (22 input features)]  
+- **Number of Observations:** 10,896 rows
+- **Temporal resolution:** daily
+- **Panel structure:** 6 products per date (6 products; one-hot encoded as `Product_2`…`Product_6`, with “Product 1” as the all-zeros baseline)
+- **Number of Features:** 23 (22 input features)
 
 
 ### Target Variable/Label
-- **Label Name:** [`Revenue`]
-- **Label Type:** [Regression]
-- **Label Description:** [Continuous revenue value for a given **date × product** row.]
+- **Label Name:** `Revenue`
+- **Label Type:** Regression
+- **Label Description:** Continuous revenue value for a given **date × product** row.
 - **Label Values (summary):**
-  - [min=0.00, p25=74.16, median=133.70, p75=262.26, max=1879.46]
-  - [mean=176.84, std=152.23]
+  - min=0.00, p25=74.16, median=133.70, p75=262.26, max=1879.46
+  - mean=176.84, std=152.23
 - **Label Distribution (by product, mean/min/max):**
-  - [Product 1: mean=122.16, min=23.11, max=416.79]
-  - [Product 2: mean=402.50, min=175.00, max=1203.43]
-  - [Product 3: mean=163.38, min=37.74, max=565.94]
-  - [Product 4: mean=85.36, min=0.00, max=430.50]
-  - [Product 5: mean=276.90, min=121.49, max=1879.46]
-  - [Product 6: mean=10.71, min=0.00, max=172.87]
+  - Product 1: mean=122.16, min=23.11, max=416.79
+  - Product 2: mean=402.50, min=175.00, max=1203.43
+  - Product 3: mean=163.38, min=37.74, max=565.94
+  - Product 4: mean=85.36, min=0.00, max=430.50
+  - Product 5: mean=276.90, min=121.49, max=1879.46
+  - Product 6: mean=10.71, min=0.00, max=172.87
 
 ### Feature Description
 
 ### Time and index
-- **`Date` (datetime):** [Calendar date for the observation (daily).]
-- **`t` (int):** [Time index (monotonically increasing day counter within the dataset date span).]
-- **`Month` (int, 1–12):** [Month of year.]
+- **`Date` (datetime):** Calendar date for the observation (daily).
+- **`t` (int):** Time index (monotonically increasing day counter within the dataset date span).
+- **`Month` (int, 1–12):** Month of year.
 
 ### Calendar / event flags (binary: 0/1)
 - **`Holiday`:** Indicates whether the date is a holiday.
