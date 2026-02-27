@@ -1,6 +1,6 @@
 # Dataset Characteristics
 
-**[Notebook](exploratory_data_analysis.ipynb)**
+**[Notebook](exploratory_data_analysis_CPH2.ipynb)**
 
 ## Dataset Information
 
@@ -62,7 +62,7 @@
 
 ## Exploratory Data Analysis
 
-The exploratory data analysis is conducted in the [exploratory_data_analysis.ipynb](exploratory_data_analysis.ipynb) notebook, which includes:
+The exploratory data analysis is conducted in the [exploratory_data_analysis_CPH2.ipynb](exploratory_data_analysis_CPH2.ipynb) notebook, which includes:
 
 - Data loading and initial inspection
 - Statistical summaries and distributions
