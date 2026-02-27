@@ -5,8 +5,7 @@
 ## Dataset Information
 
 ### Dataset Source
-- **Dataset Link:** [Provide a direct link to your dataset. If the dataset is private, explain the reason and provide contact information for the dataset owner]
-- **Dataset Owner/Contact:** [If applicable, provide contact information for private datasets]
+- **Dataset Link:** We were not able to upload a link to the dataset, so we have uploaded the dataset to the repository. You can see it beneth all of the folders. 
 
 ### Dataset Characteristics
 - **Number of Observations:** 10,896 rows
@@ -46,7 +45,6 @@
 - **`IsHalloween`:** Indicates October 31.
 
 ### Lagged / rolling statistics (float)
-> These are typical engineered time-series predictors for revenue; values suggest they were computed over a time series (likely per product).
 - **`lag_1`:** Previous day value (lag-1) of the target-related series.
 - **`roll7_mean`:** 7-day rolling mean.
 - **`roll28_mean`:** 28-day rolling mean.
