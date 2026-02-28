@@ -1,34 +1,35 @@
-# [Your Project Title Here]
+# Grup 8
 
 ## Repository Link
 
-[https://github.com/your_username/your_project_name]
+hand in : [https://github.com/luciapiron/hand-in]
+project work : [https://github.com/luciapiron/TEAMCPH]
 
 ## Description
 
-[Short project description here. Briefly summarize the problem you are trying to solve and the approach you're taking.]
+Time series prediction of bakery sales. Exam hand in. 
 
 ### Task Type
 
-[Image Classification / Chatbot / Regression / Clustering / Other]
+OLS regression and Neural network. 
 
 ### Results Summary
 
 #### Best Model Performance
-- **Best Model:** [Name and type of the best-performing model"]
-- **Evaluation Metric:** [Primary metric used, e.g., Accuracy, F1-Score, MSE, MAE]
-- **Final Performance:** [Best score achieved, e.g., 95% accuracy, F1-score of 0.87, MSE of 0.12]
+- **Best Model:** OLS regression 
+- **Evaluation Metric:** R^2 
+- **Final Performance:** 0.86 
 
 #### Model Comparison
-- **Baseline Performance:** [Baseline model performance for comparison]
-- **Improvement Over Baseline:** [Quantitative improvement, e.g., "+12% accuracy", "25% reduction in MSE"]
-- **Best Alternative Model:** [Second-best model and its performance]
+- **Baseline Performance:** R²: 0.75
+- **Improvement Over Baseline:** increase in 0.11 in the R^2
+- **Best Alternative Model:** 
 
 #### Key Insights
-- **Most Important Features:** [Top 3-5 features that drive model performance]
-- **Model Strengths:** [What the model does well]
-- **Model Limitations:** [Known limitations and failure cases]
-- **Business Impact:** [Practical implications of the model performance]
+- **Most Important Features:** lags, rolling means, time index and Fourier seasonality features
+- **Model Strengths:** predicts sales of first 5 products
+- **Model Limitations:** has issues with product 6 
+- **Business Impact:** using this model would be much more useful for the first 5 products and result in inaccurate predictions for product 6
 
 ## Documentation
 
@@ -38,6 +39,6 @@
 4. **[Model Definition and Evaluation](3_Model/model_definition_evaluation)**
 5. **[Presentation](4_Presentation/README.md)**
 
-## Cover Image
 
-![Project Cover Image](CoverImage/cover_image.png)
+
+
